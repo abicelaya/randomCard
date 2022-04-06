@@ -6,8 +6,6 @@ body {
   background: white;
   box-shadow: 3px 3px 5px black;
   display: inline-block;
-  text-align: center;
-  line-height: 25em;
   margin: auto;
   height: 25em;
   width: 15em;
@@ -16,38 +14,23 @@ body {
   position: relative;
 }
 
-&:before {
-  content: "/2660";
+.top-palo {
   font-size: 6em;
   position: absolute;
   top: 0.1em;
   left: 0.2em;
 }
 
-&:after {
-  content: "/2660";
+.number {
+  font-size: 8em;
+  position: absolute;
+  top: 1.2em;
+  left: 0.8em;
+}
+
+.bottom-palo {
   font-size: 6em;
   position: absolute;
   bottom: 0.1em;
   right: 0.2em;
-}
-
-&.diams:before,
-&.diams:after {
-  color: red;
-}
-
-&.heart:before,
-&.heart:after {
-  color: red;
-}
-
-&.clubs:before,
-&.clubs:after {
-  color: black;
-}
-
-&.spades:before,
-&.spades:after {
-  color: black;
 }
